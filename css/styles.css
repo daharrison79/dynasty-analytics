@@ -11,6 +11,7 @@
     box-sizing: border-box;
 }
 
+
 @media (max-width: 768px) {
     .site-logo {
         max-width: 350px;
@@ -35,11 +36,11 @@
         width: 100%;
     }
     .team-stat-card {
-        min-width:0;
+        min-width: 0;
         overflow: hidden;
     }
     .team-statlabel {
-        font-size: 0.75rem;
+            font-size: 0.75rem;
     }
 }
 
