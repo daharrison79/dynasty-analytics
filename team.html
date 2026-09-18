@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <title>Team Statistics</title>
+
+    <link
+        rel="stylesheet"
+        href="css/styles.css">
+    
+</head>
+
+<body>
+    <header>
+        <img
+            class="site-logo"
+            src="images/logo.png"
+            alt="Dynasty Logo">
+    </header>
+    <div id="navigation"></div>
+    <main>
+
+        <div class="card">
+            <h2>Team</h2>
+            <div id="team-dashboard">
+                Loading team statistics...
+            </div>
+        </div>
+        <div class="card">
+            <h2>Team Shot Chart</h2>
+            <p id="team-shot-filter">
+                 Showing: All Games
+            </p>
+
+            <div id="team-shot-summary">
+                Loading shot summary...
+            </div>
+            <div
+                id="team-shot-chart"
+                class="shot-chart-container">
+                <img src="images/court.png" alt="Basketball Court">
+            </div>
+        </div>
+        
+        <div class="card">
+            <h2>Team Zone Efficiency</h2>
+            <div
+                id="team-zone-heatmap"
+                class="shot-chart-container">
+                <img
+                    src="images/zone_court.png"
+                    alt="Team Zone Heat Map Court">
+                <div id="team-zone-overlay">
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="js/navigation.js"></script>
+    <script src="js/config.js"></script>
+    <script src="js/heatmap.js"></script>
+    <script src="js/team.js"></script>
+    
+
+</body>
+
+</html>
