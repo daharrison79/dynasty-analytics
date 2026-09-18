@@ -320,7 +320,6 @@ body::before {
     border-left: 4px solid var(--dynasty-cyan);
     border-radius: 8px;
     padding: 12px;
-    min-width: 110px;
     text-align: center;
 }
 
