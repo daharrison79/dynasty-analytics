@@ -40,7 +40,10 @@
         overflow: hidden;
     }
     .team-statlabel {
-            font-size: 0.75rem;
+        font-size: 0.75rem;
+    }
+    .team-stat-value {
+        font-size: 1.2rem;
     }
 }
 
