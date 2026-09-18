@@ -2,44 +2,99 @@
 <html lang="en">
 
 <head>
+    <title>Dynasty Analytics</title>
 
-    <meta charset="UTF-8">
+    <style>
 
-    <meta
-        name="viewport"
-        content="width=device-width, initial-scale=1.0">
+        body {
+            background: #111;
+            color: white;
+            font-family: Arial, sans-serif;
 
-    <title>Basketball Analytics</title>
+            display: flex;
+            justify-content: center;
+            align-items: center;
 
-    <link
-        rel="stylesheet"
-        href="css/styles.css">
-    
+            height: 100vh;
+            margin: 0;
+        }
+
+        .login-box {
+            text-align: center;
+            background: #1a1a1a;
+            padding: 40px;
+            border-radius: 10px;
+            border-top: 4px solid #ff008c;
+        }
+
+        input {
+            padding: 10px;
+            margin-top: 15px;
+            width: 250px;
+        }
+
+        button {
+            margin-top: 15px;
+            padding: 10px 20px;
+            background: #00d4ff;
+            border: none;
+            cursor: pointer;
+        }
+
+    </style>
+
 </head>
 
 <body>
 
-    <header>
-        <img
-            class="site-logo"
-            src="images/logo.png"
-            alt="Dynasty Logo">
-    </header>
-    <div id="navigation"></div>
-    <main>
+    <div class="login-box">
 
-        <div class="card">
-            <div id="season-stats">
-                Loading...
-            </div>
-        </div>
+        <h1>Dynasty Analytics</h1>
 
-    </main>
+        <label for=""password">
+            Enter password
+        </label>
 
-    <script src="js/navigation.js"></script>
-    <script src="js/config.js"></script>
-    <script src="js/home.js"></script>
-    
+        <input
+            type="password"
+            id="password">
+
+        <br>
+
+        <button onclick="checkPassword()">
+            Access Site
+        </button>
+
+        <p id="error"></p>
+
+    </div>
+
+<script>
+
+function checkPassword() {
+
+    const password =
+        document.getElementById(
+            "password"
+        ).value;
+
+    if (password === "Dynasty2026") {
+
+        window.location.href =
+            "portal.html";
+
+    } else {
+
+        document.getElementById(
+            "error"
+        ).textContent =
+            "Incorrect password";
+
+    }
+
+}
+
+</script>
+
 </body>
-
 </html>
