@@ -45,6 +45,10 @@
     .team-stat-value {
         font-size: 1.2rem;
     }
+    .profile-grid {
+        flex-direction: column;
+        gap: 20px;
+    }
 }
 
 
