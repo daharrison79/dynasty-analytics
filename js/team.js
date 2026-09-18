@@ -154,11 +154,11 @@ async function loadTeamDashboard() {
             <div class="team-stat-grid">
             
             <div class="team-stat-card">
-                <div class="team-stat-label">Points/Gm</div>
+                <div class="team-stat-label">PPG</div>
                 <div class="team-stat-value">${ppg}</div>
             </div>
             <div class="team-stat-card">
-                <div class="team-stat-label">Points Against/Gm</div>
+                <div class="team-stat-label">PA/G</div>
                 <div class="team-stat-value">${papg}</div>
             </div>
 
@@ -167,33 +167,33 @@ async function loadTeamDashboard() {
                 <div class="team-stat-value">${fgPct}%</div>
             </div>                
             <div class="team-stat-card">
-                <div class="team-stat-label">Opponent FG%</div>
+                <div class="team-stat-label">OpFG%</div>
                 <div class="team-stat-value">${oppFgPct}%</div>
             </div>
 
             <div class="team-stat-card">
-                <div class="team-stat-label">Rebounds/Gm</div>
+                <div class="team-stat-label">Reb/G</div>
                 <div class="team-stat-value">${rpg}</div>
             </div>
             <div class="team-stat-card">
-                <div class="team-stat-label">Opp. Rebounds/Gm</div>
+                <div class="team-stat-label">OpR/Gm</div>
                 <div class="team-stat-value">${oppRPG}</div>
             </div>
 
             <div class="team-stat-card">
-                <div class="team-stat-label">Turnovers/Gm</div>
+                <div class="team-stat-label">TO/G</div>
                 <div class="team-stat-value">${topg}</div>
             </div>
             <div class="team-stat-card">
-                <div class="team-stat-label">Opp Turnovers/Gm</div>
+                <div class="team-stat-label">OpTO/G</div>
                 <div class="team-stat-value">${oppTO}</div>
             </div>
             <div class="team-stat-card">
-                <div class="team-stat-label">Fouls/Gm</div>
+                <div class="team-stat-label">Fouls/G</div>
                 <div class="team-stat-value">${fpg}</div>
             </div>
             <div class="team-stat-card">
-                <div class="team-stat-label">Opp Fouls/Gm</div>
+                <div class="team-stat-label">OpF/G</div>
                 <div class="team-stat-value">${oppFpg}</div>
             </div>
 
@@ -203,11 +203,11 @@ async function loadTeamDashboard() {
                 <div class="team-stat-value">${threePct}%</div>
             </div>
             <div class="team-stat-card">
-                <div class="team-stat-label">Assits/Gm</div>
+                <div class="team-stat-label">AST/G</div>
                 <div class="team-stat-value">${apg}</div>
             </div>
             <div class="team-stat-card">
-                <div class="team-stat-label">Steals/Gm</div>
+                <div class="team-stat-label">STL/G</div>
                 <div class="team-stat-value">${spg}</div>
             </div>
         </div>
